@@ -2,8 +2,9 @@ import { Cabecera } from "./Cabecera"
 import Selector from "./Selector/Selector"
 import { ListarJuegos } from "./listaJuego/ListarJuegos"
 
-import listaGenero from "../../mock-genero";
-import listaPlataforma from "../../mock-plataforma";
+import listaGenero from "../mock-genero";
+import listaPlataforma from "../mock-plataforma";
+
 
 export const Home = () => {
 

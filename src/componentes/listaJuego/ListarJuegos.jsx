@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Juego from "./juegos"
+import Juego from "../juego/juegos"
 
 import { getAllJuegos } from "../Servicios/getAll";
 
