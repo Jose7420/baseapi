@@ -16,15 +16,19 @@ const Selector = (props) => {
         console.log(event.target.value);
     }
 
+    function filtros(){
+        return opcionOpccionSeleccionada;
+        
+    }
+
 
     return (
-        <div className="row aside">
-            <div className="col-3 p-2">
+        
+        <div className="col-2 pb-2 mr-4  w-25   mb-2 ">
                 <select size={props.longuitud} value={opcionOpccionSeleccionada} onChange={opccionElegida}>
-                    {props.lista.map(opcion)}
+                    {props.lista.filter(filtros).map(opcion)}
                 </select>
-            </div>
-        </div>
+          </div>
 
 
     )

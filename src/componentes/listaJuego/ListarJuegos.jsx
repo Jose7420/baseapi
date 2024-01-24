@@ -32,18 +32,7 @@ export const ListarJuegos = () => {
     return (
         <>
             <div className="row pt-4">
-                {listaJueos.map(mostrarJuego)}
-                {/* <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego>
-                <Juego></Juego> */}
+                {listaJueos.map(mostrarJuego)}               
             </div>
 
         </>

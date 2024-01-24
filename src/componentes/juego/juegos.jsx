@@ -14,9 +14,9 @@ const Juego = (props) => {
         // <div className="col-3"><p>{props.nombre}</p>
         // </div>
 
-        <div className="col-6 col-lg-4 p-4">
-            <div className="card width" >
-                <img src={props.juego.thumbnail} className="card-img-top  w-100 text-align-center" alt="..." />
+        <div className="col-6 col-lg-3  mb-4 mt-10    ml-5 ">
+            <div className="card bg-danger text-light h-100  " >
+                <img src={props.juego.thumbnail} className="card-img-top  w-90 text-align-center p-2 " alt="..." />
                 <div className="card-body">
                     <h2 className='card-text'>{props.juego.title}</h2>
                     <p className="card-text">{props.juego.title}</p>
